@@ -7,7 +7,7 @@
 //Creo l'arrey vuoto
 const list = [];
 
-//Chiedo all'utente di inserire 6 numeri 
+//Chiedo all'utente di inserire i numeri 6 volte
 for(i = 0; i < 6; i++){
   let numbers = parseInt(prompt("Inserisci i tuoi numeri"));
   //Controllo se i numeri sono dispari e in caso li inserisco
@@ -15,6 +15,5 @@ for(i = 0; i < 6; i++){
   list.push(numbers);
   }
 }
-
-alert(list);
+alert("La lista è formata solo dai numeri dispari da te inseriti! " + list);
 
